@@ -1,4 +1,4 @@
-# RollingDice
+# RollingDice - JavaScript
 
 RollingDice is a two player game with the goal to achieve a final score first. The final score can be customized before the start of a new game. The default final score is 100.
 
