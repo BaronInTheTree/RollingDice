@@ -1,7 +1,7 @@
 # RollingDice - JavaScript
 
-RollingDice is a two player game with the goal to achieve a final score first. The final score can be customized before the start of a new game. The default final score is 100.
+RollingDice is a two player online game. A player wins when he achieves a final score first. The final score can be set before the start of the game. The default final score is 100.
 
-The players taking turns to roll two dices. If two dices result in the same number, the player's current score will be cleared and his round ends. Otherwise, the sum of two dices will be added to his current score. 
+The players take turns to roll two dice. The sum of two dice is added to the active player's current score. A player can choose to continue rolling or hold. When a player "hold", the current score is added to his total score and his round ends. 
 
-The player can choose to "hold": his current score will be added to the overall score and his round ends. When a player's overall score is greater or equal to the final score, he wins and the game ends.
+However, when two dice result in the same face, the active player's current score is cleared and his round ends. When a player's total score is greater or equal to the final score, he wins and the game ends.
